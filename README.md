@@ -1,5 +1,6 @@
 # Thoreaulog
 A simple Prolog implementation written in ReasonML. Use it in your web applications!
+https://youtu.be/MhKYKvEPJHY
 
 ## Example
 
