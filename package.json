@@ -1,0 +1,22 @@
+{
+  "name": "thoreaulog",
+  "version": "0.1.10",
+  "main": "src/exports.js",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "npm run build && jest",
+    "preinstall": "npm i bs-platform && npm i @glennsl/bs-jest",
+    "postinstall": "npm run build"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "Gideon Buckwalter eignnx@gmail.com (https://eignnx.github.io)",
+  "license": "MIT",
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.7.0",
+    "bs-platform": "^9.0.2"
+  }
+}
